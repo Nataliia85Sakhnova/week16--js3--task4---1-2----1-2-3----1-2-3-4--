@@ -7,16 +7,11 @@ const arr = [
 ];
 
 for (i = 0; i < arr.length; i++) {
-    if (arr[i].length > 3)
-     console.log(arr[i])
-      break;
+    if (arr[i].length > 3) {
+        console.log(i)
+        break;
+    }
   }
 //massiv[0].length - длина определенного элемента массива
 
 // for ([начало]; [условие]; [шаг]) выражения
-
-for (i = 0; i < arr.length; i++) {
-    if (arr[i].length > 3)
-     console.log(arr[i])
-      break;
-  }
