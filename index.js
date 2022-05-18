@@ -6,10 +6,17 @@ const arr = [
     [1,2,3,4]
 ];
 
-for (let i=0; arr.lenght>3; i++)
-console.log(arr.length);
+for (i = 0; i < arr.length; i++) {
+    if (arr[i].length > 3)
+     console.log(arr[i])
+      break;
+  }
+//massiv[0].length - длина определенного элемента массива
 
-// А этот вдобавок расскажет и о своей позиции в массиве:
-// ["Bilbo", "Gandalf", "Nazgul"].forEach((item, index, array) => {
-//     alert(`${item} имеет позицию ${index} в ${array}`);
-//   });
+// for ([начало]; [условие]; [шаг]) выражения
+
+for (i = 0; i < arr.length; i++) {
+    if (arr[i].length > 3)
+     console.log(arr[i])
+      break;
+  }
